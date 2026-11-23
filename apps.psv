@@ -1,0 +1,100 @@
+Salesforce|Sales CRM|o|t|REST, SOQL, bulk and events|developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm
+HubSpot|CRM and marketing|o,k|f|REST contacts, companies, deals and tickets|developers.hubspot.com/docs/api/overview
+Pipedrive|Sales pipelines|o,k|t|REST deals, leads, people and activities|developers.pipedrive.com/docs/api/v1
+Attio|Relationship CRM|o,k|f|REST objects, records, lists and notes|docs.attio.com/rest-api/overview
+Twenty|Open-source CRM|k|f|REST and GraphQL objects, records and metadata; self-host route|docs.twenty.com/developers/extend/capabilities/apis
+Podio|Work management CRM|o|f|REST workspaces, apps, items and tasks|developers.podio.com/authentication
+Zoho CRM|Sales and service CRM|o|f|REST records, metadata, bulk and notifications|www.zoho.com/crm/developer/docs/api/v8/
+Close|Sales outreach CRM|o,b,k|t|REST leads, contacts, activities and sequences|developer.close.com/
+Copper|Google Workspace CRM|k|u|REST people, companies, opportunities and tasks|developer.copper.com/|Confirm eligible edition for API access.
+DealCloud|Private capital CRM|o|p|REST data and schema for provisioned instances|api.docs.dealcloud.com/|Requires a DealCloud instance and provisioned integration credentials.
+Zendesk|Customer support ticketing|o,b,k|t|REST tickets, users, organizations and help center|developer.zendesk.com/api-reference/introduction/security-and-auth/
+Intercom|Customer messaging and support|o,k|f|REST contacts, conversations, articles and tickets|developers.intercom.com/docs/build-an-integration/learn-more/authentication
+Freshdesk|Customer support ticketing|b,k|u|REST tickets, contacts and agents|developers.freshdesk.com/api/|Confirm API entitlement for the chosen trial or plan.
+Front|Shared inbox|o,k|u|REST conversations, messages, inboxes and contacts|dev.frontapp.com/reference/introduction
+Pylon|B2B support inbox|k|u|REST issues, accounts, contacts and related resources|docs.usepylon.com/pylon-docs/developer/api|Confirm trial credential issuance.
+LiveAgent|Helpdesk and live chat|k|u|REST tickets, contacts and agents via instance API|support.liveagent.com/|Confirm API version and credential entitlement.
+Plain|B2B customer support|k|u|GraphQL customers, threads and timelines|www.plain.com/docs/api-reference/graphql/overview|Confirm trial access with vendor.
+Help Scout|Shared support inbox|o|t|REST conversations, customers, mailboxes and threads|developer.helpscout.com/mailbox-api/
+Gorgias|Ecommerce helpdesk|o,b,k|t|REST tickets, messages, customers and integrations|developers.gorgias.com/reference/overview
+Gladly|Customer service platform|b,k|p|REST conversations, customers and tasks|developer.gladly.com/|Customer instance and permission to issue API credentials.
+Slack|Team messaging|o,k|f|Web API messages, channels, users and files|api.slack.com/authentication
+Twilio|Programmable communications|b,k|t|REST messaging, voice, verification and account resources|www.twilio.com/docs/iam/api
+Zoho Cliq|Workplace chat|o|f|REST channels, messages, users and bots|www.zoho.com/cliq/help/restapi/v2/
+Lark (Larksuite)|Collaboration suite|o,k|f|REST messaging, calendars, docs and Base; tenant grants|open.larksuite.com/document/
+Pumble|Team chat|k|u|Developer app and bot capabilities; check general-purpose API scope|pumble.com/developers/|Confirm credential and bot action coverage.
+Discord|Community messaging|o,k|f|REST guilds, channels and messages; Gateway events|discord.com/developers/docs/topics/oauth2
+Telegram|Messaging bots|k|f|Bot HTTP API sends messages and receives bot updates|core.telegram.org/bots/api
+WhatsApp Business|Business messaging|k|m|Cloud API messaging, templates and webhooks|developers.facebook.com/docs/whatsapp/cloud-api/get-started|Test sender first; production assets and permissions have platform requirements.
+Aircall|Cloud contact center|o,b,k|u|REST calls, users, numbers and webhooks|developer.aircall.io/api-references/|Confirm customer entitlement and marketplace approval for distribution.
+Vonage|Programmable voice and messaging|b,k,j|t|Voice, SMS, Messages and Verify APIs use product-specific auth|developer.vonage.com/en/getting-started/concepts/authentication
+Google Ads|Search and display advertising|o,k|m|REST and gRPC campaigns, reporting and mutations|developers.google.com/google-ads/api/docs/access-levels|OAuth plus developer token; production access depends on token tier.
+Meta Ads|Meta campaign management|k|m|Graph API campaigns, ad sets, creatives and insights|developers.facebook.com/docs/marketing-api/access|Permission and access level depend on whose accounts are managed.
+LinkedIn Ads|LinkedIn campaign management|o|r|REST ad accounts, campaigns, creatives and reporting|learn.microsoft.com/en-us/linkedin/marketing/increasing-access|Marketing product access and tier approval.
+GoHighLevel|Agency CRM and automation|o,k|t|REST contacts, opportunities, calendars and conversations|marketplace.gohighlevel.com/docs/
+Mailchimp|Email marketing|o,k,b|f|REST audiences, campaigns and reports|mailchimp.com/developer/marketing/docs/fundamentals/
+Klaviyo|Lifecycle marketing|o,k|f|REST profiles, events, lists, campaigns and flows|developers.klaviyo.com/en/docs/authenticate_
+systeme.io|Funnels and email automation|k|u|REST contacts, tags and selected funnel operations|developer.systeme.io/|Confirm API key eligibility by plan.
+Pinterest|Visual discovery and ads|o|m|REST pins, boards, ads and analytics|developers.pinterest.com/docs/getting-started/introduction/|Confirm access tier before external distribution.
+Threads (Meta)|Social publishing|o,k|m|Graph API posts, replies and insights|developers.facebook.com/docs/threads/|App roles for testing; permissions and review for wider rollout.
+SendGrid|Transactional and marketing email|k|u|REST mail send, sender identities, contacts and statistics|www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication|Check current trial and verified sender requirements.
+Shopify|Hosted commerce|o,k|f|GraphQL Admin products, inventory, orders and customers|shopify.dev/docs/api/admin-graphql|Development store route; protected customer data has extra requirements.
+WooCommerce|WordPress commerce|b,k|f|REST orders, products and customers on an administered store|woocommerce.com/document/woocommerce-rest-api/
+BigCommerce|Hosted commerce|o,k|t|REST catalog, orders and customers; GraphQL storefront|developer.bigcommerce.com/docs/start/authentication
+Salesforce Commerce Cloud|Enterprise digital commerce|o|p|SCAPI and OCAPI shopper and admin resources|developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html|Provisioned commerce instance, scopes and API client.
+Magento (Adobe Commerce)|Self-managed and enterprise commerce|o,k|f|REST and GraphQL catalog, carts and orders; auth varies by distribution|developer.adobe.com/commerce/webapi/get-started/authentication/|Free route applies to Magento Open Source; Adobe SaaS entitlement differs.
+Squarespace|Website builder with commerce|o,k|p|REST products, inventory, orders and transactions|developers.squarespace.com/commerce-apis/authentication|Commerce API availability depends on plan and route.
+Ecwid|Embedded ecommerce|o,k|u|REST store products, orders and customers|docs.ecwid.com/api-reference/authentication|Confirm custom app entitlement on the target store plan.
+Gumroad|Digital goods sales|o,k|f|REST products, sales, subscribers and licenses|gumroad.com/api
+Amazon Selling Partner|Seller and vendor operations|o|m|REST orders, listings, inventory, reports and finance|developer-docs.amazon.com/sp-api/docs/registering-your-application|Registration, role approval and restricted data handling.
+FanBasis|Creator commerce and payments|?|u|Integration entry point needs confirmation|www.fanbasis.com/|Verify product identity, official authentication docs and merchant onboarding.
+DataForSEO|SEO data APIs|b|m|REST SERPs, keywords, backlinks and business data|docs.dataforseo.com/v3/auth/|Sandbox has limited responses; live endpoints are metered.
+SE Ranking|SEO analytics|k|p|REST keyword, domain, rank and backlink data|seranking.com/api.html|API plan or commercial access required.
+Ahrefs|SEO and backlink research|k|m|API v3 site, keyword and backlink metrics|docs.ahrefs.com/docs/api/reference/introduction|Confirm current plan, credits and test endpoint eligibility.
+MrScraper|Web data extraction|k|u|Scraper run and result retrieval|docs.mrscraper.com/|Confirm current credential issuance and plan.
+Apify|Hosted automation and data extraction|k|f|REST Actors, runs, tasks and datasets|docs.apify.com/api/v2
+Firecrawl|Web extraction for AI|k|f|REST scrape, crawl, map, search and extraction|docs.firecrawl.dev/introduction
+Bright Data|Web data infrastructure|k,b|m|REST datasets and scraper APIs plus proxy credentials|docs.brightdata.com/|Sandbox/trial and live access vary by product.
+Sherlock|Username research CLI|n|f|Local open-source CLI searches supported sites|github.com/sherlock-project/sherlock|A CLI wrapper is the integration surface.
+Waterfall.io|Contact and company enrichment|?|u|Exact vendor and public integration surface need confirmation|waterfall.io/|Resolve product identity before committing a build.
+Clay|Go-to-market data enrichment|?|u|Webhooks, HTTP actions and product-specific API surfaces|university.clay.com/docs/webhooks|Confirm first-party API, entitlement and desired read/write coverage.
+GitHub|Code hosting and collaboration|o,k|f|REST and GraphQL repositories, issues and pull requests|docs.github.com/en/rest/authentication/authenticating-to-the-rest-api
+Vercel|Web development platform|o,k|f|REST deployments, projects and domains|vercel.com/docs/rest-api
+Netlify|Web deployment platform|o,k|f|REST sites, deploys, builds and DNS|docs.netlify.com/api/get-started/
+Cloudflare|Internet infrastructure|k|f|REST zones, DNS, workers and account services|developers.cloudflare.com/fundamentals/api/get-started/create-token/
+Supabase|Hosted Postgres backend|o,k|f|Generated Data REST API and management API|supabase.com/docs/guides/api
+Neo4j|Graph database|b,k|f|Query API, Bolt drivers and Aura management|neo4j.com/docs/query-api/current/
+Snowflake|Cloud data warehouse|o,k,j|t|SQL API and management APIs; role-scoped access|docs.snowflake.com/en/developer-guide/sql-api/authenticating
+MongoDB Atlas|Managed MongoDB|o,j|f|Atlas Administration REST API; database CRUD via drivers|www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/|Confirm target is management or database access.
+Datadog|Observability and security|k,o|t|REST monitors, dashboards, events, logs and metrics|docs.datadoghq.com/api/latest/authentication/
+Sentry|Application error monitoring|o,k|f|REST issues, projects, releases and organizations|docs.sentry.io/api/auth/
+Notion|Workspace documents and databases|o,k|f|REST pages, blocks, databases and data sources|developers.notion.com/docs/authorization
+Airtable|Spreadsheet database platform|o,k|f|REST records, bases and metadata|airtable.com/developers/web/api/introduction
+Linear|Issue and project tracking|o,k|f|GraphQL issues, projects and teams|linear.app/developers/graphql
+Jira|Issue and project tracking|o,b,k|f|REST issues, projects, users and workflows|developer.atlassian.com/cloud/jira/platform/rest/v3/intro/
+Asana|Work and project management|o,k|f|REST tasks, projects, portfolios and workspaces|developers.asana.com/docs/authentication
+Monday.com|Work management platform|o,k|f|GraphQL boards, items, columns and users via developer account|developer.monday.com/api-reference/docs/authentication
+ClickUp|Project and task management|o,k|f|REST tasks, lists, spaces and comments|developer.clickup.com/docs/authentication
+Coda|Documents and structured tables|k|f|REST docs, tables, rows and automations|coda.io/developers/apis/v1
+Smartsheet|Work planning and tracking|o,k|p|REST sheets, rows, reports and workspaces|developers.smartsheet.com/api/smartsheet/guides/basics/authentication|Check eligible plan or developer sandbox.
+Harvest|Time tracking and invoicing|o,k|f|REST time entries, projects, clients and invoices|help.getharvest.com/api-v2/authentication-api/authentication/authentication/
+Stripe|Payments and billing|k,b,o|f|REST payments, customers, invoices and subscriptions; test mode|docs.stripe.com/api/authentication
+Plaid|Financial account connectivity|k|m|REST Link, Items, Transactions, Auth and Identity|plaid.com/docs/api/|Self-serve Sandbox; production access and product approval separate.
+Binance|Crypto exchange|k,j|m|Spot REST and WebSocket market data, orders and accounts|developers.binance.com/docs/binance-spot-api-docs/rest-api/request-security|Spot Testnet; real-account eligibility and permissions depend on jurisdiction.
+Paygent Connect|Merchant payment gateway|?|u|NMI is a potential upstream surface; product mapping unconfirmed|docs.nmi.com/|Resolve merchant product and credential path before relying on NMI docs.
+iPayX|Payments integration prospect|?|u|Public integration details need verification|ipayx.ai/docs|Confirm exact product, API reference and merchant credential path.
+QuickBooks|Small business accounting|o|m|REST invoices, accounts, customers and payments|developer.intuit.com/app/developer/qbo/docs/get-started|Sandbox available; production requires app requirements.
+Xero|Small business accounting|o|m|REST accounting, contacts, invoices and bank transactions|developer.xero.com/documentation/guides/oauth2/overview/|Demo company validation; verify current connection limits and commercial tier.
+Brex|Corporate cards and spend|o,k|p|REST teams, expenses, transactions and payments|developer.brex.com/docs/authentication/|Customer permissions or partner OAuth route.
+Ramp|Corporate cards and spend|o|m|REST transactions, users, reimbursements and accounting|docs.ramp.com/developer-api/v1/overview|Sandbox or authorized customer; confirm partner route as applicable.
+PitchBook|Private market intelligence|k|p|Licensed market data integration|pitchbook.com/products/direct-data|Confirm contract and credential model with vendor.
+NotebookLM|AI notebook and source research|o|p|NotebookLM Enterprise APIs for notebooks and sources|cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks|Google Cloud project, IAM and Enterprise provisioning.
+Otter AI|Meeting transcription and notes|?|u|Meeting data and MCP entry points; plan and auth need confirmation|help.otter.ai/|Confirm current API and MCP availability, scopes and entitlement.
+Fathom|AI meeting notes|o,k|u|REST meetings, summaries, action items and transcripts|developers.fathom.ai/|Confirm API key and OAuth rollout paths.
+Consensus|Scientific literature search|?|u|Public product; requested OAuth route requires confirmation|consensus.app/|Find official integration terms before assuming OAuth or API access.
+Reducto|Document parsing and extraction|k|f|REST parse, extract, split and edit document workflows|docs.reducto.ai/
+Devin|AI software engineering agent|k|p|REST sessions, knowledge and organization resources|docs.devin.ai/api-reference/overview|Confirm organization API credentials and plan.
+Higgsfield|Creative media generation|k|m|Official CLI and media generation workflows|higgsfield.ai/cli|Check CLI auth, credits and unattended use.
+Mermaid CLI|Diagram rendering|n|f|Local open-source CLI renders Mermaid syntax|github.com/mermaid-js/mermaid-cli
+YouTube Transcript|Third-party transcript retrieval|k|f|TranscriptAPI HTTP endpoints; distinct from YouTube Data API|transcriptapi.com/docs
+Grain|Meeting recording and intelligence|o,k|u|Meeting recording, transcript and integration surfaces|developers.grain.com/|Confirm documented auth and access by plan.

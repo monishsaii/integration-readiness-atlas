@@ -1,0 +1,52 @@
+{
+  "17": {
+    "mcp": "Official Plain MCP",
+    "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx"
+  },
+  "46": {
+    "mcp": "Official Squarespace Commerce MCP",
+    "url": "https://developers.squarespace.com/mcp/tools/commerce"
+  },
+  "47": {
+    "url": "https://docs.ecwid.com/get-started/make-your-first-api-request"
+  },
+  "60": {
+    "url": "https://university.clay.com/docs/webhook-integration-guide"
+  },
+  "75": {
+    "mcp": "Official Asana MCP",
+    "url": "https://developers.asana.com/docs/using-asanas-mcp-server"
+  },
+  "56": {
+    "mcp": "Official Firecrawl MCP",
+    "url": "https://docs.firecrawl.dev/mcp-server"
+  },
+  "62": {
+    "mcp": "Official Vercel MCP",
+    "url": "https://vercel.com/docs/agent-resources/vercel-mcp"
+  },
+  "64": {
+    "mcp": "Official Cloudflare product-specific MCP",
+    "url": "https://github.com/cloudflare/mcp-server-cloudflare"
+  },
+  "65": {
+    "mcp": "Official Supabase MCP",
+    "url": "https://supabase.com/docs/guides/ai-tools/mcp"
+  },
+  "70": {
+    "mcp": "Official Sentry MCP",
+    "url": "https://mcp.sentry.dev/"
+  },
+  "71": {
+    "mcp": "Official Notion MCP",
+    "url": "https://developers.notion.com/guides/mcp/overview"
+  },
+  "81": {
+    "mcp": "Official Stripe MCP",
+    "url": "https://docs.stripe.com/mcp"
+  },
+  "96": {
+    "mcp": "Official Devin MCP",
+    "url": "https://docs.devin.ai/work-with-devin/devin-mcp"
+  }
+}

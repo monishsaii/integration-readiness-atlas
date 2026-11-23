@@ -1,0 +1,113 @@
+{
+  "31": {
+    "claims": {
+      "auth": "o",
+      "access": "m",
+      "mcp": "Official Google Ads MCP server guide"
+    },
+    "note": "Test access is managed per Cloud project. Explorer or higher is needed for production.",
+    "finding": "OAuth still applies. Google sunset developer tokens on September 9, 2026. Cloud projects can start in Test and apply for production access. Google documents an MCP route.",
+    "sources": [
+      "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+      "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+      "https://developers.google.com/google-ads/api/rest/try-it",
+      "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server"
+    ]
+  },
+  "49": {
+    "claims": {
+      "auth": "o",
+      "access": "m"
+    },
+    "finding": "Login with Amazon is OAuth 2.0. Developer onboarding documents sandbox registration, with roles and seller authorization governing production.",
+    "sources": [
+      "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview"
+    ]
+  },
+  "61": {
+    "claims": {
+      "auth": "o,k",
+      "mcp": "Official GitHub MCP server"
+    },
+    "finding": "The REST docs describe OAuth app tokens and personal access tokens, with GitHub App routes also available. GitHub publishes its own MCP server.",
+    "sources": [
+      "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "https://github.com/github/github-mcp-server"
+    ]
+  },
+  "74": {
+    "claims": {
+      "auth": "o,b,k",
+      "mcp": "Official Atlassian Rovo MCP for Jira"
+    },
+    "finding": "Jira Cloud REST supports OAuth 2.0 and an account API token with HTTP Basic. Atlassian Rovo MCP supports Jira using OAuth 2.1 or admin-enabled token routes.",
+    "sources": [
+      "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+      "https://developer.atlassian.com/cloud/rovo-mcp/guides/getting-started/"
+    ]
+  },
+  "82": {
+    "claims": {
+      "auth": "k",
+      "access": "m"
+    },
+    "finding": "Plaid requests use a client ID and secret. The free Sandbox uses simulated data. Production onboarding is separate.",
+    "sources": [
+      "https://plaid.com/docs/sandbox/",
+      "https://plaid.com/docs/api/"
+    ]
+  },
+  "92": {
+    "claims": {
+      "auth": "k",
+      "access": "p",
+      "mcp": "Official Otter MCP (OAuth; client availability varies)"
+    },
+    "surface": "REST conversations, transcripts, audio, channels and workspace data; webhooks",
+    "note": "Enterprise workspace for REST. MCP uses OAuth and is a separate surface.",
+    "finding": "The browser check confirmed Enterprise workspace eligibility and API-key bearer auth for REST. The separate Otter MCP guide documents OAuth.",
+    "sources": [
+      "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+      "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server"
+    ]
+  },
+  "25": {
+    "claims": {
+      "auth": "k",
+      "access": "f"
+    },
+    "surface": "HTTP API addon for messages, reactions and channels",
+    "note": "Install the API addon and grant workspace permissions.",
+    "finding": "Pumble documents API key generation on all plans and lists supported message, reaction and channel operations.",
+    "sources": [
+      "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/"
+    ]
+  },
+  "41": {
+    "claims": {
+      "access": "f"
+    },
+    "finding": "Shopify provides development stores for app testing. Publishing and protected data access have separate requirements.",
+    "sources": [
+      "https://shopify.dev/docs/apps/build/stores/development-stores"
+    ]
+  },
+  "55": {
+    "claims": {
+      "mcp": "Official Apify MCP"
+    },
+    "finding": "Apify documents its MCP server for agent access to Actors.",
+    "sources": [
+      "https://docs.apify.com/mcp"
+    ]
+  },
+  "73": {
+    "claims": {
+      "mcp": "Official Linear MCP"
+    },
+    "finding": "Linear documents its official MCP server separately from its GraphQL API.",
+    "sources": [
+      "https://linear.app/docs/mcp"
+    ]
+  }
+}

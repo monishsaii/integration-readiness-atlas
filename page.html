@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Integration Readiness Atlas</title>
+<meta name="description" content="A 100-app study of developer access, agent toolkit feasibility, and evidence quality.">
+<style>
+:root{color-scheme:light;--paper:#f2f4ec;--ink:#192b23;--line:#c9d1c3;--green:#154a38;--mint:#d8edac;--dim:#4a6052}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,sans-serif}
+header,main,footer{max-width:1280px;margin:auto;padding-inline:clamp(16px,4vw,64px)}
+header{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding-block:12px;border-bottom:1px solid var(--line)}
+nav{display:flex;gap:18px;flex-wrap:wrap}a{color:var(--green);text-underline-offset:3px}header strong{letter-spacing:.03em}
+.hero{background:var(--green);color:#f8f9ec;border-radius:0 0 20px 20px;padding:clamp(24px,5vw,64px);margin-bottom:30px}.hero p{max-width:70ch;color:#e4ecd9}.eyebrow{letter-spacing:.12em;text-transform:uppercase;font:700 .8rem system-ui;color:var(--mint)!important}
+h1,h2{font-family:Georgia,serif;line-height:1.03;margin:.24em 0 .32em;font-weight:500}h1{font-size:clamp(3rem,8vw,7rem);max-width:13ch}h2{font-size:clamp(2.1rem,4vw,3.6rem)}
+section{margin-block:42px;scroll-margin:20px}.hero{margin-top:0}.stats,.columns{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:14px}
+.card{background:#fbfcf6;border:1px solid var(--line);border-radius:12px;padding:20px}.metric{font:3rem/1 Georgia,serif;color:var(--green);display:block;margin-bottom:9px}.dim{color:var(--dim)}.chart{display:grid;grid-template-columns:minmax(120px,180px) 1fr 34px;align-items:center;gap:9px 14px}.track{background:#e5eade;height:12px;border-radius:3px}.bar{height:100%;background:var(--green);border-radius:3px}
+.filters{display:flex;gap:12px;align-items:end;flex-wrap:wrap;margin:18px 0}.filters label{display:grid;gap:4px;font-weight:600}.filters input,.filters select{font:inherit;padding:8px;border:1px solid #809082;background:#fff;color:var(--ink);border-radius:6px}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px;background:#fbfcf6}table{border-collapse:collapse;width:100%;min-width:820px}th,td{padding:10px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}th{background:#e5ebdb}td small{display:block;color:var(--dim)}td:first-child{min-width:140px}.tag{background:#e1ecd3;display:inline-block;padding:2px 7px;border-radius:4px;font-size:.88rem}details summary{cursor:pointer}code{font-size:.95em;overflow-wrap:anywhere}footer{padding-bottom:38px}
+</style>
+</head>
+<body>
+<header><strong>Integration Readiness Atlas</strong><nav aria-label="Page"><a href="#patterns">Patterns</a><a href="#verification">Verification</a><a href="#matrix">App matrix</a><a href="#pipeline">Pipeline</a></nav></header>
+<main>
+<section class="hero"><p class="eyebrow">Composio take-home · Product operations</p><h1>Which integrations can we build now?</h1><p id="headline"></p><div id="stats" class="stats" style="color:var(--ink)"></div></section>
+<section id="patterns"><h2>Where to start</h2><div class="columns"><div class="card"><h3>Prototype routes by category</h3><p class="dim">Free, self-hosted, and trial routes, out of ten apps per category.</p><div id="chart" class="chart"></div></div><div class="card"><h3>Build order</h3><p id="auth-insight"></p><p><strong>Start with scoped reads.</strong> Prototype GitHub issue lookup, Linear issue retrieval, and Airtable record listing in accounts you control. Pin one action and verify its scope before adding writes.</p><p><strong>Separate testing from launch.</strong> Google Ads, Amazon Selling Partner and Plaid have test routes and distinct production requirements. Resolve customer or partner permissions before promising distribution.</p><p id="outreach"></p></div></div></section>
+<section id="verification"><h2>What the evidence changed</h2><p id="score"></p><div class="table-wrap"><table><thead><tr><th scope="col">App</th><th scope="col">Initial claim</th><th scope="col">Reviewed finding</th><th scope="col">Evidence</th></tr></thead><tbody id="review"></tbody></table></div><p class="dim">The purposive sample targets identity, access and MCP edge cases. The revised score uses the same evidence that informed the corrections and measures reconciliation. It does not estimate accuracy across 100 apps. Independent human audit is pending. <a href="human-audit.csv">Download the blind 10-app worksheet</a>.</p></section>
+<section id="matrix"><h2>The 100-app matrix</h2><p class="dim">Verdicts describe the first credible test route. Evidence links are research starting points. MCP “Unconfirmed” means the surface has not been substantiated in this study.</p>
+<div class="filters"><label>Search<input id="q" type="search" placeholder="App, auth or capability"></label><label>Category<select id="category"><option value="">All categories</option></select></label><label>Access<select id="access"><option value="">All access types</option></select></label></div>
+<p id="count" role="status"></p><div class="table-wrap" role="region" aria-label="App matrix" tabindex="0"><table><thead><tr><th scope="col">App</th><th scope="col">Auth</th><th scope="col">Access</th><th scope="col">Surface and MCP</th><th scope="col">Verdict and evidence</th></tr></thead><tbody id="rows"></tbody></table></div></section>
+<section id="pipeline"><h2>How it runs</h2><div class="columns"><article class="card"><h3>Collect</h3><p>Freeze the AI-generated roster and hypotheses. Fetch vendor documentation concurrently and record HTTP status, redirects, and short passages about auth, access, API surfaces and MCP.</p></article><article class="card"><h3>Adjudicate</h3><p>Recheck high-impact claims via vendor documentation and targeted searches. Record corrections with sources. Keyword matches are candidates for review. HTTP 200 measures reachability only.</p></article><article class="card"><h3>Rebuild</h3><p>Run <code>python3 research.py</code> to refresh evidence and rebuild this page. The pipeline is standard-library Python. It uses no vendor credentials and makes no authenticated endpoint calls.</p><p><a href="data.json">Download app data</a> · <a href="evidence.json">HTTP evidence log</a>  · <a href="https://github.com/monishsaii/integration-readiness-atlas">Source repository</a></p></article></div><p class="dim" id="fetch"></p></section>
+</main><footer>Research snapshot · 23 Nov 2026</footer>
+<script type="application/json" id="data"><!-- DATA --></script>
+<script>
+const {apps, claims, observed_utc: observed, seed_ok: seedOk} = JSON.parse(document.querySelector('#data').textContent);
+const byId = id => document.getElementById(id);
+const set = (id, text) => {byId(id).textContent = text;};
+const safe = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const links = urls => urls.map((url, i) => '<a href="'+safe(url)+'">Source '+(i+1)+'</a>').join(' · ');
+const counts = key => apps.filter(app => app.access === key).length;
+const ready = counts('f') + counts('t');
+const unknown = counts('u');
+const oauth = apps.filter(app => app.auth.split(',').includes('o')).length;
+const tokens = apps.filter(app => app.auth.split(',').includes('k')).length;
+set('headline', ready+' apps have a plausible free, self-hosted or trial route. '+counts('m')+' more have a test path with separate production requirements. The matrix shows which claims still need validation.');
+byId('stats').innerHTML = [[100,'Apps mapped'],[ready,'Prototype candidates'],[unknown,'Access unresolved']].map(([number,label]) => '<div class="card"><span class="metric">'+number+'</span>'+label+'</div>').join('');
+set('auth-insight','Keys and tokens appear on '+tokens+' apps and OAuth 2.0 on '+oauth+'. Apps can support both. Start with a credential you control, then design tenant authorization for distribution.');
+set('outreach','Queue '+(counts('p')+counts('r'))+' paid, provisioned or approval-dependent apps for access discussions. Keep the '+unknown+' unresolved access paths in research until the vendor documents an eligible route.');
+const categories = [...new Set(apps.map(app => app.category))];
+byId('chart').innerHTML = categories.map(category => {
+ const n = apps.filter(app => app.category === category && app.verdict === 'Prototype').length;
+ return '<span>'+safe(category)+'</span><span class="track" aria-hidden="true"><span class="bar" style="display:block;width:'+n*10+'%"></span></span><span>'+n+'/10</span>';
+}).join('');
+const baseline = claims.filter(claim => claim.match).length;
+const revised = claims.filter(claim => claim.reconciled).length;
+set('score', baseline+'/'+claims.length+' sampled claims agreed with the documented findings in the frozen AI draft. '+revised+'/'+claims.length+' agree after applying the same-source corrections.');
+const labels = {o:'OAuth 2.0',k:'API key / token',b:'HTTP Basic',j:'Signing / JWT',n:'Local, no API auth','?':'Unconfirmed',f:'Free / self-hosted',t:'Trial / developer tenant',m:'Test path; production gate',p:'Paid / provisioned',r:'Approval required',u:'Unconfirmed'};
+byId('review').innerHTML = apps.filter(app => app.review).map(app => {
+ const rows = claims.filter(claim => claim.app === app.name);
+ const initial = rows.map(claim => claim.field+' = '+claim.initial.split(',').map(value => labels[value] || value).join(' + ')+' ('+(claim.match?'hit':'miss')+')').join(' · ');
+ return '<tr><th scope="row">'+safe(app.name)+'</th><td>'+safe(initial)+'</td><td>'+safe(app.review)+'</td><td>'+links(app.sources)+'</td></tr>';
+}).join('');
+function options(id, values) {
+ for (const value of values) byId(id).add(new Option(value, value));
+}
+options('category', categories);
+options('access', [...new Set(apps.map(app => app.access_label))].sort());
+function render() {
+ const query = byId('q').value.trim().toLowerCase();
+ const filtered = apps.filter(app => (!byId('category').value || app.category === byId('category').value) &&
+  (!byId('access').value || app.access_label === byId('access').value) &&
+  [app.name,app.description,app.auth_label,app.surface,app.note,app.mcp].join(' ').toLowerCase().includes(query));
+ set('count', filtered.length+' of '+apps.length+' apps');
+ byId('rows').innerHTML = filtered.map(app => '<tr><td><strong>'+safe(app.name)+'</strong><small>'+safe(app.category)+' · '+safe(app.description)+'</small></td><td>'+safe(app.auth_label)+'</td><td>'+safe(app.access_label)+'</td><td>'+safe(app.surface)+'<small>MCP · '+safe(app.mcp)+'</small></td><td><span class="tag">'+safe(app.verdict)+'</span><small>'+safe(app.note)+'</small>'+links(app.sources)+'<small>'+ (app.review ? 'Sample reviewed · ' : '')+'HTTP '+safe(app.evidence.status ?? 'unavailable')+'</small></td></tr>').join('') || '<tr><td colspan="5">No apps match these filters.</td></tr>';
+}
+for (const control of ['q','category','access']) byId(control).addEventListener('input',render);
+render();
+set('fetch', seedOk+' of 100 seed URLs returned HTTP 200. With alternate sources, '+apps.filter(app => app.evidence.status === 200).length+' apps had a reachable source. Run time '+observed.slice(0,16).replace('T',' ')+' UTC. Review unresolved and restricted links before operational use.');
+</script>
+</body>
+</html>

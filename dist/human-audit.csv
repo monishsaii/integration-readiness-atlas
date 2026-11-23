@@ -1,0 +1,11 @@
+app,category,starting_url,observed_auth,observed_access,observed_surface,observed_mcp,supporting_urls,notes
+DealCloud,CRM & Sales,https://api.docs.dealcloud.com/
+Help Scout,Support,https://developer.helpscout.com/mailbox-api/
+Zoho Cliq,Communications,https://www.zoho.com/cliq/help/restapi/v2/
+GoHighLevel,Marketing,https://marketplace.gohighlevel.com/docs/
+BigCommerce,Ecommerce,https://developer.bigcommerce.com/docs/start/authentication
+Clay,Data & SEO,https://university.clay.com/docs/webhook-integration-guide
+MongoDB Atlas,Developer & Infra,https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/
+Smartsheet,Productivity,https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication
+Paygent Connect,Finance,https://docs.nmi.com/
+NotebookLM,AI & Media,https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks

@@ -1,0 +1,1268 @@
+{
+  "observed_utc": "2026-11-23T15:32:56.762019+00:00",
+  "pages": {
+    "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm": {
+      "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "status": 403,
+      "resolved_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_rest.htm",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://developers.hubspot.com/docs/api/overview": {
+      "url": "https://developers.hubspot.com/docs/api/overview",
+      "status": 200,
+      "resolved_url": "https://developers.hubspot.com/docs/api-reference/latest/overview",
+      "characters": 2806,
+      "signals": {
+        "surface": "evenue Payment Accounts Payment Links Price Books Webhooks API guide Subscriptions Webhooks journal Overview Journal entries Sna"
+      }
+    },
+    "https://developers.pipedrive.com/docs/api/v1": {
+      "url": "https://developers.pipedrive.com/docs/api/v1",
+      "status": 200,
+      "resolved_url": "https://developers.pipedrive.com/docs/api/v1",
+      "characters": 2854,
+      "signals": {
+        "oauth": "s Legacy teams Mailbox Meetings Note fields Notes OAuth 2.0 Organization fields Organization relationships Organizations Permissi",
+        "key_or_token": "stateless – all requests are validated against an API token. The API token can be obtained manually from the Pipedrive app. OpenA",
+        "test": "ount for sandboxing purposes. Go to the Developer Sandbox Account page to learn more and request your own sandbox account. Deve",
+        "surface": "Stages Tasks User connections Users User settings Webhooks API Reference This reference helps you implement the RESTful Pipedriv"
+      }
+    },
+    "https://docs.attio.com/rest-api/overview": {
+      "url": "https://docs.attio.com/rest-api/overview",
+      "status": 200,
+      "resolved_url": "https://docs.attio.com/rest-api/overview",
+      "characters": 70547,
+      "signals": {
+        "oauth": " OpenAPI Core endpoints Standard objects SCIM 2.0 OAuth 2.0 Webhook reference Activity events Activity attribute events Activity ",
+        "surface": "Navigation Introduction Overview Overview App SDK REST API MCP SQL Share Changelog Developer console Support Introduction Overvi"
+      }
+    },
+    "https://docs.twenty.com/developers/extend/capabilities/apis": {
+      "url": "https://docs.twenty.com/developers/extend/capabilities/apis",
+      "status": 200,
+      "resolved_url": "https://docs.twenty.com/developers/extend/api",
+      "characters": 55561,
+      "signals": {
+        "key_or_token": "der Settings → Developers → API after creating an API key. It includes an interactive playground where you can execute real cal",
+        "surface": " Config Data Logic Layout Operations API Overview Webhooks OAuth Self-Host Docker Compose Setup Securing your instance Upgrade g"
+      }
+    },
+    "https://developers.podio.com/authentication": {
+      "url": "https://developers.podio.com/authentication",
+      "status": 200,
+      "resolved_url": "https://developers.podio.com/authentication",
+      "characters": 4888,
+      "signals": {
+        "oauth": "uthenticate with Podio API The Podio API uses the OAuth2 protocol for authentication. This allows external apps to request aut",
+        "key_or_token": "og About App Market Log in Getting started Get an API key Authentication Scopes & Permissions Server-side flow Client-side flow"
+      }
+    },
+    "https://www.zoho.com/crm/developer/docs/api/v8/": {
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+      "status": 200,
+      "resolved_url": "https://www.zoho.com/crm/developer/docs/api/v8/",
+      "characters": 591,
+      "signals": {}
+    },
+    "https://developer.close.com/": {
+      "url": "https://developer.close.com/",
+      "status": 200,
+      "resolved_url": "https://developer.close.com/",
+      "characters": 2998,
+      "signals": {
+        "oauth": " explorer. Authentication API keys for scripts or OAuth 2.0 for user-facing integrations. Webhooks & Events Real-time event notif",
+        "mcp": "-time event notifications and a 30-day event log. MCP Server Model Context Protocol for AI agents. Build an Integration Create an ",
+        "surface": "form gives everything you or your AI agents need. REST API Reference Full endpoint docs with schemas, examples, and an interacti"
+      }
+    },
+    "https://developer.copper.com/": {
+      "url": "https://developer.copper.com/",
+      "status": 200,
+      "resolved_url": "https://developer.copper.com/",
+      "characters": 5591,
+      "signals": {
+        "oauth": "nvironment Authentication Authentication Overview OAuth2.0 OAuth2.0 Overview Quickstart Guide Documentation Requests Responses S",
+        "surface": " uploaded file to a specific entity Delete a file Webhooks Webhooks Overview Create new subscription Update a subscription Delet"
+      }
+    },
+    "https://api.docs.dealcloud.com/": {
+      "url": "https://api.docs.dealcloud.com/",
+      "status": 200,
+      "resolved_url": "https://api.docs.dealcloud.com/",
+      "characters": 3312,
+      "signals": {}
+    },
+    "https://developer.zendesk.com/api-reference/introduction/security-and-auth/": {
+      "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "status": 200,
+      "resolved_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "characters": 6309,
+      "signals": {
+        "key_or_token": "page OAuth access token Global OAuth access token API token (deprecated) SSL requirements End user authentication Security and au",
+        "basic": "existing Zendesk customer and are currently using basic authentication or API tokens, you will have to migrate to OAuth access tokens for im"
+      }
+    },
+    "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication": {
+      "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "status": 200,
+      "resolved_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "characters": 4143,
+      "signals": {
+        "mcp": "e APIs Webhooks Fin Agent API News Center Domains Model Context Protocol (MCP) References Object Model REST API Reference Canvas Kit Reference",
+        "surface": "acts Tickets Help Center Reporting Using the APIs Webhooks Fin Agent API News Center Domains Model Context Protocol (MCP) Refere"
+      }
+    },
+    "https://developers.freshdesk.com/api/": {
+      "url": "https://developers.freshdesk.com/api/",
+      "status": 200,
+      "resolved_url": "https://developers.freshdesk.com/api/",
+      "characters": 363685,
+      "signals": {
+        "oauth": "h 3 Urgent 4 Create a Ticket post /api/v2/tickets OAuth 2.0 Scope 1 freshdesk.tickets.create Parameters Attribute Type Descriptio",
+        "key_or_token": "t API Keys /api/v2/agents/[id]/api_keys Create an API Key /api/v2/agents/[id]/api_keys View an API Key /api/v2/agents/[id]/api_",
+        "gate": "r the Pro plan and 2,000 calls per minute for the Enterprise plan. To comply with WhatsApp's policies, these outbound messages must use"
+      }
+    },
+    "https://dev.frontapp.com/reference/introduction": {
+      "url": "https://dev.frontapp.com/reference/introduction",
+      "status": 200,
+      "resolved_url": "https://dev.frontapp.com/reference/introduction",
+      "characters": 11613,
+      "signals": {
+        "oauth": "API Terminology 101 Authentication Front supports OAuth2.0 as well as API Tokens. To learn about authenticating with Front, see ",
+        "key_or_token": " patch List link conversations get Token Identity API Token details get Message Template Folders List folders get Create folder p"
+      }
+    },
+    "https://docs.usepylon.com/pylon-docs/developer/api": {
+      "url": "https://docs.usepylon.com/pylon-docs/developer/api",
+      "status": 200,
+      "resolved_url": "https://docs.usepylon.com/pylon-docs/developer/api",
+      "characters": 2858,
+      "signals": {
+        "surface": "rrors Rate limits API reference External IDs SDKs CLI Custom Apps Embedded Iframes Webhooks Powered by GitBook On this page"
+      }
+    },
+    "https://support.liveagent.com/": {
+      "url": "https://support.liveagent.com/",
+      "status": 200,
+      "resolved_url": "https://support.liveagent.com/",
+      "characters": 2746,
+      "signals": {
+        "test": "g Testimonials Use Cases Integrations and Plugins Free Trial Most Popular Articles How to make REST calls in PHP Enable External F"
+      }
+    },
+    "https://www.plain.com/docs/api-reference/graphql/overview": {
+      "url": "https://www.plain.com/docs/api-reference/graphql/overview",
+      "status": 404,
+      "resolved_url": "https://www.plain.com/docs/graphql/overview",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx": {
+      "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+      "status": 200,
+      "resolved_url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+      "characters": 2113,
+      "signals": {
+        "key_or_token": "AI Agents - Does the Plain MCP server support API key authentication? | Help Center Skip to content ⌘ K Inbox Ask a human A",
+        "mcp": "AI Agents - Does the Plain MCP server support API key authentication? | Help Center Skip to content ⌘ K Inb",
+        "surface": " lightweight custom MCP server that wraps Plain's GraphQL API with a single machine user API key. In Settings, open Machine Use"
+      }
+    },
+    "https://developer.helpscout.com/mailbox-api/": {
+      "url": "https://developer.helpscout.com/mailbox-api/",
+      "status": 200,
+      "resolved_url": "https://developer.helpscout.com/mailbox-api/",
+      "characters": 4476,
+      "signals": {}
+    },
+    "https://developers.gorgias.com/reference/overview": {
+      "url": "https://developers.gorgias.com/reference/overview",
+      "status": 200,
+      "resolved_url": "https://developers.gorgias.com/docs/overview",
+      "characters": 2122,
+      "signals": {
+        "oauth": "ublic App Authentication Access Tokens (API Keys) OAuth2 Bearer Token OAuth2 Scopes Building a Public App Overview Building a ",
+        "test": "app 1. Register on Developer Portal & Get Gorgias Sandbox Account 2. Create a Draft App submission form 3. Set up OAuth2 4. Bui"
+      }
+    },
+    "https://developer.gladly.com/": {
+      "url": "https://developer.gladly.com/",
+      "status": 200,
+      "resolved_url": "https://developer.gladly.com/",
+      "characters": 1380,
+      "signals": {
+        "surface": "veloper Gladly.com Toggle Menu Home Developer API REST API Chat Web SDK Chat iOS SDK Chat Android SDK Help Center Tutorials Help"
+      }
+    },
+    "https://api.slack.com/authentication": {
+      "url": "https://api.slack.com/authentication",
+      "status": 200,
+      "resolved_url": "https://docs.slack.dev/authentication/",
+      "characters": 2810,
+      "signals": {
+        "oauth": "ooth authentication flow. Whether you’re handling OAuth 2.0 , verifying requests , or setting up Sign in with Slack , we’ve got y",
+        "surface": "ation basics Key concepts Reference . Tools Slack CLI Bolt frameworks Slack SDKs Block Kit Builder Developer program Code s"
+      }
+    },
+    "https://www.twilio.com/docs/iam/api": {
+      "url": "https://www.twilio.com/docs/iam/api",
+      "status": 200,
+      "resolved_url": "https://www.twilio.com/docs/iam/api",
+      "characters": 4838,
+      "signals": {
+        "key_or_token": "lio supports HTTP Basic authentication . Use your API key SID as the username and your API key secret as the password. You can ",
+        "basic": "cate requests to the Twilio APIs, Twilio supports HTTP Basic authentication . Use your API key SID as the username and your API ke",
+        "surface": "t (IAM) Getting Started Overview Test Credentials REST API: Auth Token REST API: Secondary Auth Token Accounts REST API: Account"
+      }
+    },
+    "https://www.zoho.com/cliq/help/restapi/v2/": {
+      "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+      "status": 200,
+      "resolved_url": "https://www.zoho.com/cliq/help/restapi/v2/",
+      "characters": 272482,
+      "signals": {
+        "oauth": "Authentication Zoho Cliq's Rest API's follows the OAuth 2.0 protocol to authorize and authenticate requests. Each API request mus",
+        "surface": "Rest API documentation | Cliq REST API Documentation Access Cliq Pricing Help "
+      }
+    },
+    "https://open.larksuite.com/document/": {
+      "url": "https://open.larksuite.com/document/",
+      "status": 200,
+      "resolved_url": "https://open.larksuite.com/document/",
+      "characters": 15,
+      "signals": {}
+    },
+    "https://pumble.com/developers/": {
+      "url": "https://pumble.com/developers/",
+      "status": 404,
+      "resolved_url": "https://pumble.com/developers/",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/": {
+      "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "status": 200,
+      "resolved_url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "characters": 4502,
+      "signals": {
+        "key_or_token": "iew In this article Install API addon Generate an API key Delete API key Valid commands Pumble API Overview 2 min read isidora.",
+        "surface": "tant addon Connect Zoom to Pumble with Zapier and Webhooks Was this article helpful? Submit Cancel Thank you! If you’d like a me"
+      }
+    },
+    "https://discord.com/developers/docs/topics/oauth2": {
+      "url": "https://discord.com/developers/docs/topics/oauth2",
+      "status": 200,
+      "resolved_url": "https://docs.discord.com/developers/topics/oauth2",
+      "characters": 205279,
+      "signals": {
+        "oauth": "OAuth2 - Documentation - Discord Documentation Index Fetch the complete docu",
+        "key_or_token": "dded to all apps, and are authenticated using the bot token found in your app’s settings . Unlike the normal OAuth2 flow, bot use",
+        "basic": " All calls to the OAuth2 endpoints require either HTTP Basic authentication or client_id and client_secret supplied in the form da",
+        "surface": "thorization Two-Factor Authentication Requirement Webhooks Get Current Bot Application Information Get Current Authorization Inf"
+      }
+    },
+    "https://core.telegram.org/bots/api": {
+      "url": "https://core.telegram.org/bots/api",
+      "status": 200,
+      "resolved_url": "https://core.telegram.org/bots/api",
+      "characters": 524755,
+      "signals": {
+        "surface": "ing requests when getting updates If you're using webhooks , you can perform a request to the Bot API while sending an answer to"
+      }
+    },
+    "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started": {
+      "url": "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started",
+      "status": 200,
+      "resolved_url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started",
+      "characters": 11392,
+      "signals": {
+        "gate": " permissions for this use case and add them to an App Review submission, if applicable. - [**Quickstart**](https://developers.face",
+        "surface": " tokens, send and receive messages, and configure webhooks and the WhatsApp SDK. - [**Configuration**](https://developers.facebo"
+      }
+    },
+    "https://developer.aircall.io/api-references/": {
+      "url": "https://developer.aircall.io/api-references/",
+      "status": 200,
+      "resolved_url": "https://developers.aircall.io/api-references",
+      "characters": 456208,
+      "signals": {
+        "oauth": "n on one Aircall account. Aircall implemented the OAuth 2.0 authentication protocol so you can easily build an app on top of Airc",
+        "key_or_token": "age . In the API Keys section, click on Add a new API key and get your api_token and api_token . Do not forget to copy/paste yo",
+        "basic": "tication Introduction OAuth ﹣ Technology Partners Basic Auth ﹣ Aircall customers Rate limiting Pagination Errors Versioning Versio",
+        "surface": "es | Aircall API References Guides Start building REST API Authentication Introduction OAuth ﹣ Technology Partners Basic Auth ﹣ "
+      }
+    },
+    "https://developer.vonage.com/en/getting-started/concepts/authentication": {
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "status": 200,
+      "resolved_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "characters": 25322,
+      "signals": {
+        "key_or_token": "nding on which product you are using: API{filter} API Key and Secret (Header) JSON Web Token (JWT) Accounts Application Audit C",
+        "basic": " 2 Voice 3 Video 1 Messages supports both JWT and Basic authentication, however basic authentication does not support webhooks or advanced f",
+        "surface": "on, however basic authentication does not support webhooks or advanced features such as ACLs. For most use-cases we recommend JW"
+      }
+    },
+    "https://developers.google.com/google-ads/api/docs/access-levels": {
+      "url": "https://developers.google.com/google-ads/api/docs/access-levels",
+      "status": 200,
+      "resolved_url": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+      "characters": 11860,
+      "signals": {
+        "test": "owed API features. There are three access levels: Test Account Access for test accounts with a 15,000 operation limit, Basic Access ",
+        "mcp": "Make your first call quickstart or the Google Ads MCP server guide . Go to Google Ads API Overview in Cloud Console Access levels "
+      }
+    },
+    "https://developers.google.com/google-ads/api/docs/api-policy/access-levels": {
+      "url": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+      "status": 200,
+      "resolved_url": "https://developers.google.com/google-ads/api/docs/api-policy/access-levels",
+      "characters": 11860,
+      "signals": {
+        "test": "owed API features. There are three access levels: Test Account Access for test accounts with a 15,000 operation limit, Basic Access ",
+        "mcp": "Make your first call quickstart or the Google Ads MCP server guide . Go to Google Ads API Overview in Cloud Console Access levels "
+      }
+    },
+    "https://developers.google.com/google-ads/api/docs/api-policy/developer-token": {
+      "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+      "status": 200,
+      "resolved_url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+      "characters": 24787,
+      "signals": {
+        "key_or_token": "y: Under Google policies , Google may revoke your API token if it's not used consecutively for 90 days. If you haven't used your ",
+        "test": " Your Google Cloud project may be on Google Cloud Free Trial program or has a suspended or disabled billing account. How to verify",
+        "mcp": "rt or connect an AI assistant with the Google Ads MCP server . Go to Google Ads API Overview in Cloud Console What's changing? We "
+      }
+    },
+    "https://developers.google.com/google-ads/api/rest/try-it": {
+      "url": "https://developers.google.com/google-ads/api/rest/try-it",
+      "status": 200,
+      "resolved_url": "https://developers.google.com/google-ads/api/rest/try-it",
+      "characters": 8367,
+      "signals": {}
+    },
+    "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server": {
+      "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "status": 200,
+      "resolved_url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "characters": 35092,
+      "signals": {
+        "oauth": "ser authentication workflow Security requirements OAuth 2.0 internals Set up a Google API Console project for authorization Crede",
+        "gate": "the Google Ads API enabled (see Prerequisites for production access requirements). The gcloud command-line tool installed, authenticated,",
+        "mcp": "Google Ads MCP server: Developer integration guide | Google Ads API | Google for Developers"
+      }
+    },
+    "https://developers.facebook.com/docs/marketing-api/access": {
+      "url": "https://developers.facebook.com/docs/marketing-api/access",
+      "status": 200,
+      "resolved_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+      "characters": 9017,
+      "signals": {
+        "gate": "m/docs/graph-api/overview/access-levels). During [App Review](https://developers.facebook.com/docs/app-review), your app must also"
+      }
+    },
+    "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access": {
+      "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access",
+      "status": 200,
+      "resolved_url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access?view=li-lms-2026-11",
+      "characters": 14331,
+      "signals": {
+        "oauth": " any additional member permission to be passed in OAuth2 scope for member consent. For restricted APIs, LinkedIn evaluates app"
+      }
+    },
+    "https://marketplace.gohighlevel.com/docs/": {
+      "url": "https://marketplace.gohighlevel.com/docs/",
+      "status": 200,
+      "resolved_url": "https://marketplace.gohighlevel.com/docs/",
+      "characters": 2078,
+      "signals": {
+        "oauth": "pp or Private integration Set Up Authentication - OAuth 2.0 or Private Integration Token Make Your First API Call - Test with our",
+        "surface": "tent Marketplace Docs HighLevel API Reference SDK CLI v3 v3 2023-02-21 2021-07-28 2021-04-15 Sign In HighLevel API Document"
+      }
+    },
+    "https://mailchimp.com/developer/marketing/docs/fundamentals/": {
+      "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "status": 200,
+      "resolved_url": "https://mailchimp.com/developer/marketing/api-concepts/api-structure",
+      "characters": 2418,
+      "signals": {
+        "oauth": "ints (beta) API structure Authentication API keys OAuth 2 Methods and parameters Rate limits and timeouts Errors Webhooks Batch",
+        "surface": "ds and parameters Rate limits and timeouts Errors Webhooks Batch operations Alternative schemas Audiences endpoints (beta) API s"
+      }
+    },
+    "https://developers.klaviyo.com/en/docs/authenticate_": {
+      "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+      "status": 200,
+      "resolved_url": "https://developers.klaviyo.com/en/docs/authenticate_",
+      "characters": 12696,
+      "signals": {
+        "key_or_token": "ys to authenticate requests. If you do not use an API key for your requests, or if you use a key from the wrong account, your c",
+        "test": "icy Get started Get started with Klaviyo Create a test account Install a library Authenticate API requests Make a test API request R",
+        "gate": "s Create help docs for your integration Pass your app review Submit your app for review Create promotional material for your integ",
+        "mcp": "st for your public API key Glossary index Klaviyo MCP server Available tools Connect to the MCP server Klaviyo Stripe Projects Age",
+        "surface": " alerts Use Klaviyo's Postman collections Klaviyo CLI Create an allowlist for your public API key Glossary index Klaviyo MC"
+      }
+    },
+    "https://developer.systeme.io/": {
+      "url": "https://developer.systeme.io/",
+      "status": 200,
+      "resolved_url": "https://developer.systeme.io/reference/api",
+      "characters": 14322,
+      "signals": {
+        "key_or_token": "m public pages is not advisable as it exposes the API key. This poses a significant security risk. The proper approach is to ma"
+      }
+    },
+    "https://developers.pinterest.com/docs/getting-started/introduction/": {
+      "url": "https://developers.pinterest.com/docs/getting-started/introduction/",
+      "status": 200,
+      "resolved_url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+      "characters": 3447,
+      "signals": {
+        "oauth": "nges Build a working authentication flow based on OAuth 2 For full details on the OAuth process, review our guide on Scopes & A",
+        "test": "nd allow you to explore certain endpoints faster. Sandbox : Our sandbox environment allows you to make test calls without impac"
+      }
+    },
+    "https://developers.facebook.com/docs/threads/": {
+      "url": "https://developers.facebook.com/docs/threads/",
+      "status": 200,
+      "resolved_url": "https://developers.facebook.com/documentation/threads",
+      "characters": 2250,
+      "signals": {
+        "surface": "s.facebook.com/documentation/threads/insights) * [Webhooks](https://developers.facebook.com/documentation/threads/webhooks) * [K"
+      }
+    },
+    "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication": {
+      "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+      "status": 200,
+      "resolved_url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+      "characters": 16461,
+      "signals": {
+        "key_or_token": "API Overview Create API keys Retrieve an existing API Key Retrieve all API Keys belonging to the authenticated user Update API ",
+        "surface": "e. Retrieve email statistics by mailbox provider. Webhooks Webhooks API Overview Create an Event Webhook Test Event Notification"
+      }
+    },
+    "https://shopify.dev/docs/api/admin-graphql": {
+      "url": "https://shopify.dev/docs/api/admin-graphql",
+      "status": 200,
+      "resolved_url": "https://shopify.dev/docs/api/admin-graphql/latest",
+      "characters": 17519,
+      "signals": {
+        "surface": "GraphQL Admin API reference Skip to main content Apps Storefronts Agents Refe"
+      }
+    },
+    "https://shopify.dev/docs/apps/build/stores/development-stores": {
+      "url": "https://shopify.dev/docs/apps/build/stores/development-stores",
+      "status": 200,
+      "resolved_url": "https://shopify.dev/docs/apps/build/stores/development-stores",
+      "characters": 8667,
+      "signals": {
+        "test": "g Shopify's Test payment gateway or by activating test mode for your payment provider. Real transactions through active payment p",
+        "surface": "Distribution Dev tools Shopify AI Toolkit Shopify CLI Dev Dashboard Building blocks APIs Authentication Custom data Events "
+      }
+    },
+    "https://woocommerce.com/document/woocommerce-rest-api/": {
+      "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "status": 200,
+      "resolved_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "characters": 5560,
+      "signals": {
+        "key_or_token": "Settings > Advanced > REST API . Select Create an API key or Add Key . The Key Details screen opens. Enter a Description to ide",
+        "surface": "WooCommerce REST API Documentation - WooCommerce Skip to navigation Skip to content Develo"
+      }
+    },
+    "https://developer.bigcommerce.com/docs/start/authentication": {
+      "url": "https://developer.bigcommerce.com/docs/start/authentication",
+      "status": 200,
+      "resolved_url": "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts",
+      "characters": 44311,
+      "signals": {
+        "key_or_token": "e GraphQL Storefront API bearer tokens Storefront API Token V3 Storefront API Customer Impersonation Tokens modify store_storefro",
+        "basic": "ur API connections to use OAuth instead of legacy basic authentication, take the following actions: Create an API account appropriate to you",
+        "mcp": "ve Deprecated Closed Beta Programs Resources Docs MCP Server Product Docs Support Quick Start Sandboxes Tools & SDKs Remote Tunnel",
+        "surface": "PI credentials Delete carefully Don’t forget your webhooks and metafields App-level API accounts Creating app-level API credenti"
+      }
+    },
+    "https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html": {
+      "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html",
+      "status": 403,
+      "resolved_url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started.html",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://developer.adobe.com/commerce/webapi/get-started/authentication/": {
+      "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "status": 200,
+      "resolved_url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "characters": 8560,
+      "signals": {}
+    },
+    "https://developers.squarespace.com/commerce-apis/authentication": {
+      "url": "https://developers.squarespace.com/commerce-apis/authentication",
+      "status": 404,
+      "resolved_url": "https://developers.squarespace.com/commerce-apis/authentication",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://developers.squarespace.com/mcp/tools/commerce": {
+      "url": "https://developers.squarespace.com/mcp/tools/commerce",
+      "status": 200,
+      "resolved_url": "https://developers.squarespace.com/mcp/tools/commerce",
+      "characters": 11609,
+      "signals": {}
+    },
+    "https://docs.ecwid.com/api-reference/authentication": {
+      "url": "https://docs.ecwid.com/api-reference/authentication",
+      "status": 404,
+      "resolved_url": "https://docs.ecwid.com/api-reference/authentication",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://docs.ecwid.com/get-started/make-your-first-api-request": {
+      "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+      "status": 200,
+      "resolved_url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+      "characters": 3835,
+      "signals": {
+        "oauth": "wid REST API require an access token . Ecwid uses OAuth 2.0 to provide secure access to the store data for public apps. If you cu",
+        "test": "o the API reference. Before you begin There is no test mode in Ecwid API, so we recommend setting up a separate test store. This ",
+        "surface": "k Contact API support More Build apps Site Themes REST API Reference Storefronts (JS API) Webhook automations Discounts Guides C"
+      }
+    },
+    "https://gumroad.com/api": {
+      "url": "https://gumroad.com/api",
+      "status": 200,
+      "resolved_url": "https://gumroad.com/api",
+      "characters": 3,
+      "signals": {}
+    },
+    "https://developer-docs.amazon.com/sp-api/docs/registering-your-application": {
+      "url": "https://developer-docs.amazon.com/sp-api/docs/registering-your-application",
+      "status": 200,
+      "resolved_url": "https://developer-docs.amazon/sp-api/docs/registering-your-application",
+      "characters": 21689,
+      "signals": {
+        "test": " 3: Create a Developer Profile Step 4: Register a Sandbox Application Step 5: Make Your First Call to the SP-API Sandbox Step 6",
+        "surface": "osk Data Kiosk API Request and filter data with a GraphQL query Verify that query processing is complete Data Kiosk Schema Expl"
+      }
+    },
+    "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview": {
+      "url": "https://developer-docs.amazon.com/sp-api/docs/onboarding-overview",
+      "status": 200,
+      "resolved_url": "https://developer-docs.amazon/sp-api/docs/onboarding-overview",
+      "characters": 29898,
+      "signals": {
+        "oauth": "tner's behalf. The authorization method is either OAuth 2.0 (for public applications) or self-authorization (for private applicat",
+        "test": " 3: Create a Developer Profile Step 4: Register a Sandbox Application Step 5: Make Your First Call to the SP-API Sandbox Step 6",
+        "surface": "osk Data Kiosk API Request and filter data with a GraphQL query Verify that query processing is complete Data Kiosk Schema Expl"
+      }
+    },
+    "https://www.fanbasis.com/": {
+      "url": "https://www.fanbasis.com/",
+      "status": 200,
+      "resolved_url": "https://commas.com/",
+      "characters": 6563,
+      "signals": {}
+    },
+    "https://docs.dataforseo.com/v3/auth/": {
+      "url": "https://docs.dataforseo.com/v3/auth/",
+      "status": 200,
+      "resolved_url": "https://docs.dataforseo.com/v3/auth/",
+      "characters": 13388,
+      "signals": {
+        "key_or_token": "gardless of the programming language, your unique API token should be passed in the ‘Authorization’ header within the request in ",
+        "basic": "om your account password. DataForSEO is using the Basic Authentication , which makes it possible to call our APIs with almost any programmin",
+        "test": "e Appendix AI-Optimized Response User Data Errors Sandbox ID List API Errors Webhook Resend Tasks Fixed Status Authentication f",
+        "surface": "ith almost any programming language, Postman app, REST API platforms, and all major frameworks. Regardless of the programming la"
+      }
+    },
+    "https://seranking.com/api.html": {
+      "url": "https://seranking.com/api.html",
+      "status": 200,
+      "resolved_url": "https://seranking.com/api.html",
+      "characters": 21430,
+      "signals": {
+        "key_or_token": "er the Settings section, and retrieve your unique API key. Once you have your API key, you can use it for different purposes. F",
+        "test": "age your socials as a team See product tour Start free trial en en English de Deutsch fr Français es Español nl Nederlands it Ital",
+        "mcp": "ports, no code, no workflow interruption. Explore MCP Server Build processes that aren’t constrained by bandwidth Automation & Wor",
+        "surface": " first-party SDKs and integration is done via the REST API reference and a Postman collection for endpoint testing. Also, defaul"
+      }
+    },
+    "https://docs.ahrefs.com/docs/api/reference/introduction": {
+      "url": "https://docs.ahrefs.com/docs/api/reference/introduction",
+      "status": 200,
+      "resolved_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+      "characters": 4988,
+      "signals": {
+        "key_or_token": "ys To send requests to Ahrefs API, you'll need an API key. Only workspace owners and admins can create and manage API keys. Thi",
+        "surface": "Introduction | Ahrefs for Developers Docs Home REST API MCP Data Studio Bot Analytics Ahrefs Connect Search docs... ⌘K ✕ Prod"
+      }
+    },
+    "https://docs.mrscraper.com/": {
+      "url": "https://docs.mrscraper.com/",
+      "status": 200,
+      "resolved_url": "https://docs.mrscraper.com/docs/getting-started/overview",
+      "characters": 5730,
+      "signals": {
+        "key_or_token": "ng Started Overview Quickstart Web Search Scraper API Token Plan CLI MCP Server Billing Features Workflow Workflow API Access Bul",
+        "mcp": " Quickstart Web Search Scraper API Token Plan CLI MCP Server Billing Features Workflow Workflow API Access Bulk Scraping Proxy Mar",
+        "surface": "view Quickstart Web Search Scraper API Token Plan CLI MCP Server Billing Features Workflow Workflow API Access Bulk Scrapin"
+      }
+    },
+    "https://docs.apify.com/api/v2": {
+      "url": "https://docs.apify.com/api/v2",
+      "status": 200,
+      "resolved_url": "https://docs.apify.com/api/v2",
+      "characters": 34608,
+      "signals": {
+        "key_or_token": "our GET request. Authentication You can create an API token on the Integrations page in the Apify Console. The Console shows the ",
+        "surface": "nt for Rust SDK SDK for JavaScript SDK for Python CLI Installation Quick start Command reference For AI agents Apify API Ge"
+      }
+    },
+    "https://docs.apify.com/mcp": {
+      "url": "https://docs.apify.com/mcp",
+      "status": 200,
+      "resolved_url": "https://docs.apify.com/mcp",
+      "characters": 18469,
+      "signals": {
+        "key_or_token": "ion maintains a list of compatible clients. Apify API token (optional) - Only needed for the local stdio server or the Bearer tok",
+        "mcp": "Apify MCP server | Platform | Apify Documentation Skip to main content Get started Get",
+        "surface": "nt for Rust SDK SDK for JavaScript SDK for Python CLI Installation Quick start Command reference For AI agents Overview Age"
+      }
+    },
+    "https://docs.firecrawl.dev/introduction": {
+      "url": "https://docs.firecrawl.dev/introduction",
+      "status": 200,
+      "resolved_url": "https://docs.firecrawl.dev/introduction",
+      "characters": 176869,
+      "signals": {
+        "key_or_token": "the API Scrape your first page now. No account or API key is required for this request. cURL # No API key needed to get started",
+        "test": "ria Search Scrape More Monitor Interact / Browser Sandbox Parse Map Crawl Agent Quickstarts Node.js Serverless PHP Ruby Python ",
+        "mcp": "esults in seconds, optimized for high throughput. MCP Server : Connect Firecrawl to any AI tool via the Model Context Protocol . B",
+        "surface": "esktop & Cowork Cursor Grok Bot Factory Droid MCP CLI Firecrawl Local Advanced Scraping Guide Plans and Billing Enterprise "
+      }
+    },
+    "https://docs.firecrawl.dev/mcp-server": {
+      "url": "https://docs.firecrawl.dev/mcp-server",
+      "status": 200,
+      "resolved_url": "https://docs.firecrawl.dev/mcp-server",
+      "characters": 80735,
+      "signals": {
+        "key_or_token": "l MCP with keyless access, account sign-in, or an API key. Copy page Copy page Choose how the connection will authenticate. Sig",
+        "test": "ria Search Scrape More Monitor Interact / Browser Sandbox Parse Map Crawl Agent Quickstarts Node.js Serverless PHP Ruby Python ",
+        "mcp": ") Agent docs (llms.txt) Full docs (llms-full.txt) MCP server github linkedin website x Powered by This documentation is built and ",
+        "surface": "ctory Droid MCP Get Started For Agents For Humans CLI Firecrawl Local Advanced Scraping Guide Plans and Billing Enterprise "
+      }
+    },
+    "https://docs.brightdata.com/": {
+      "url": "https://docs.brightdata.com/",
+      "status": 200,
+      "resolved_url": "https://docs.brightdata.com/introduction",
+      "characters": 101842,
+      "signals": {
+        "key_or_token": "de datasets. Thousands of pre-built scrapers, one API key. Read https://docs.brightdata.com/llms.txt and get me set up with Bri",
+        "mcp": "ight Data MCP\",\"icon\":\"server\",\"pages\":[{\"title\":\"MCP server overview\",\"sidebarTitle\":\"Overview\",\"href\":\"/products/mcp-server/over",
+        "surface": " coding agent Choose a product Concepts Tutorials CLI Bright Data MCP Python SDK JavaScript SDK Data extraction Scraper API"
+      }
+    },
+    "https://github.com/sherlock-project/sherlock": {
+      "url": "https://github.com/sherlock-project/sherlock",
+      "status": 200,
+      "resolved_url": "https://github.com/sherlock-project/sherlock",
+      "characters": 7038,
+      "signals": {
+        "surface": "across social networks sherlockproject.xyz Topics cli cti cybersecurity forensics hacktoberfest information-gathering infos"
+      }
+    },
+    "https://waterfall.io/": {
+      "url": "https://waterfall.io/",
+      "status": 200,
+      "resolved_url": "https://www.waterfall.io/",
+      "characters": 8409,
+      "signals": {}
+    },
+    "https://university.clay.com/docs/webhooks": {
+      "url": "https://university.clay.com/docs/webhooks",
+      "status": 404,
+      "resolved_url": "https://university.clay.com/docs/webhooks",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://university.clay.com/docs/webhook-integration-guide": {
+      "url": "https://university.clay.com/docs/webhook-integration-guide",
+      "status": 200,
+      "resolved_url": "https://university.clay.com/docs/webhook-integration-guide",
+      "characters": 5376,
+      "signals": {
+        "surface": "Webhooks in Clay - Clay Docs Skip to main Review your year with Clay on Clayba"
+      }
+    },
+    "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api": {
+      "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "status": 200,
+      "resolved_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "characters": 14291,
+      "signals": {
+        "key_or_token": "rticle About authentication Authenticating with a personal access token Authenticating with a token generated by an app Authenticating in a G",
+        "basic": " are automatically authorized for SAML SSO. Using basic authentication Some REST API endpoints for GitHub Apps and OAuth apps require you to",
+        "surface": "Authenticating to the REST API - GitHub Docs Skip to main content Skip to content GitHub Docs Search"
+      }
+    },
+    "https://github.com/github/github-mcp-server": {
+      "url": "https://github.com/github/github-mcp-server",
+      "status": 200,
+      "resolved_url": "https://github.com/github/github-mcp-server",
+      "characters": 106359,
+      "signals": {
+        "key_or_token": "\" : \" github_mcp_pat \" , \"description\" : \" GitHub Personal Access Token \" , \"password\" : true } ] } Install in other MCP hosts Copilot CLI - ",
+        "mcp": "Hub - github/github-mcp-server: GitHub's official MCP Server · GitHub Skip to content Navigation Menu Sign in Products Platform Gi",
+        "surface": "\" : true } ] } Install in other MCP hosts Copilot CLI - Installation guide for GitHub Copilot CLI GitHub Copilot in other I"
+      }
+    },
+    "https://vercel.com/docs/rest-api": {
+      "url": "https://vercel.com/docs/rest-api",
+      "status": 200,
+      "resolved_url": "https://vercel.com/docs/rest-api",
+      "characters": 74101,
+      "signals": {
+        "key_or_token": "gateway-api-key-budget.md) | Update an AI Gateway API key budget | ## Artifacts | Method | Endpoint | Description | |---|---|--",
+        "test": "ndboxes`](/docs/rest-api/sandboxes/create-a-named-sandbox.md) | Create a named sandbox | | **GET** | [`/v2/sandboxes/snapshots`",
+        "surface": "--- title: Vercel REST API Reference product: vercel url: /docs/rest-api canonical_url: \"https:/"
+      }
+    },
+    "https://vercel.com/docs/agent-resources/vercel-mcp": {
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+      "status": 200,
+      "resolved_url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+      "characters": 17295,
+      "signals": {
+        "mcp": "erms). Connect your AI tools to Vercel using the [Model Context Protocol (MCP)](https://modelcontextprotocol.io), an open standard that lets A",
+        "surface": "el-mcp.graph.md) ## Quick Setup Use the `add-mcp` CLI to add the Vercel MCP to all your tools. ```bash npx -y add-mcp https"
+      }
+    },
+    "https://docs.netlify.com/api/get-started/": {
+      "url": "https://docs.netlify.com/api/get-started/",
+      "status": 200,
+      "resolved_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+      "characters": 32669,
+      "signals": {
+        "oauth": "@EXAMPLE.COM) \" \\ -H \" Authorization: Bearer YOUR_OAUTH2_ACCESS_TOKEN \" \\ https://api.netlify.com/api/v1/sites Authentication ",
+        "key_or_token": "etween a browser and your site. × . To generate a personal access token personal access token A credential tied to your personal account that",
+        "surface": "reference Netlify skills Request processing order CLI reference Netlify SDK for extensions Visual Editor reference APIs Net"
+      }
+    },
+    "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/": {
+      "url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+      "status": 200,
+      "resolved_url": "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/",
+      "characters": 7261,
+      "signals": {
+        "key_or_token": "Create API token · Cloudflare Fundamentals docs Skip to content Documentation Index Fe",
+        "gate": "flare Docs llms-full.txt ↗︎ Getting started Plans Contact sales Partners Find a partner Startups Under attack? Domain name search Com",
+        "mcp": "ces Agent setup ↗︎ Cloudflare Skills ↗︎ Code Mode MCP Server ↗︎ Domain-specific MCP Servers ↗︎ MCP Cloudflare Fundamentals llms.tx",
+        "surface": "ens Roll tokens API token template URLs Reference REST API ↗︎ API GraphQL API ↗︎ Wrangler API ↗︎ API token permissions API depre"
+      }
+    },
+    "https://github.com/cloudflare/mcp-server-cloudflare": {
+      "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "status": 200,
+      "resolved_url": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "characters": 10118,
+      "signals": {
+        "key_or_token": "ou will need to provide the Responses API with an API token that has the scopes (permissions) required for that particular MCP se",
+        "test": "mcp.cloudflare.com/mcp Container server Spin up a sandbox development environment https://containers.mcp.cloudflare.com/mcp Bro",
+        "mcp": "Apache-2.0 license Security More items Cloudflare MCP Server Model Context Protocol (MCP) is a new, standardized protocol for mana",
+        "surface": "etup https://dns-analytics.mcp.cloudflare.com/mcp GraphQL server Get analytics data using Cloudflare's GraphQL API https://grap"
+      }
+    },
+    "https://supabase.com/docs/guides/api": {
+      "url": "https://supabase.com/docs/guides/api",
+      "status": 200,
+      "resolved_url": "https://supabase.com/docs/guides/api",
+      "characters": 3614,
+      "signals": {
+        "surface": "Data REST API | Supabase Docs Skip to content DOCS Start Products Build Manage Refe"
+      }
+    },
+    "https://supabase.com/docs/guides/ai-tools/mcp": {
+      "url": "https://supabase.com/docs/guides/ai-tools/mcp",
+      "status": 200,
+      "resolved_url": "https://supabase.com/docs/guides/ai-tools/mcp",
+      "characters": 22817,
+      "signals": {
+        "key_or_token": "ent access to your organization. You don't need a personal access token (PAT). Next steps Your MCP client automatically redirects you to sign",
+        "gate": "documentation Branching (experimental) Requires a paid plan. create_branch / list_branches / delete_branch - Branch management me",
+        "mcp": "Supabase MCP Server | Supabase Docs Skip to content DOCS Start Products Build Manage Refe",
+        "surface": "ence Resources Build AI Tools Local Development & CLI Deployment & Branching Self-Hosting Integrations AI Tools Overview Ag"
+      }
+    },
+    "https://neo4j.com/docs/query-api/current/": {
+      "url": "https://neo4j.com/docs/query-api/current/",
+      "status": 200,
+      "resolved_url": "https://neo4j.com/docs/query-api/current/",
+      "characters": 5408,
+      "signals": {
+        "surface": "gin Vector search indexes Vector search functions GraphQL vector index search documentation Create applications Python Driver G"
+      }
+    },
+    "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating": {
+      "url": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+      "status": 200,
+      "resolved_url": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+      "characters": 15333,
+      "signals": {
+        "surface": "owflake Scripting Developer Guide Tools Snowflake CLI CI/CD Git in Snowflake Python ecosystem Snowflake SQLAlchemy Drivers "
+      }
+    },
+    "https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/": {
+      "url": "https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/",
+      "status": 200,
+      "resolved_url": "https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/",
+      "characters": 21144,
+      "signals": {
+        "surface": "odules MongoDB Atlas AWS CloudFormation Resources GraphQL APIs on AWS Migrate to Flex Clusters Client Libraries Tools Atlas Arc"
+      }
+    },
+    "https://docs.datadoghq.com/api/latest/authentication/": {
+      "url": "https://docs.datadoghq.com/api/latest/authentication/",
+      "status": 200,
+      "resolved_url": "https://docs.datadoghq.com/api/latest/authentication/",
+      "characters": 13978,
+      "signals": {
+        "oauth": "d Integration Network Device Monitoring Notebooks OAuth2 Client Public Observability Pipelines OCI Integration Okta Integratio",
+        "key_or_token": "pplication Security Audit Authentication Validate API key AuthN Mappings AWS Integration AWS Logs Integration Azure Integration",
+        "test": "gineering AI Security Labs Login GET STARTED FREE Free Trial Home Docs API / Overview Authorization Scopes for OAuth Clients Rate ",
+        "mcp": "alyst Datadog for AI Agent Observability AI Guard MCP Server Pup CLI GPU Monitoring Platform Capabilities Built-in features & inte",
+        "surface": "or AI Agent Observability AI Guard MCP Server Pup CLI GPU Monitoring Platform Capabilities Built-in features & integrations"
+      }
+    },
+    "https://docs.sentry.io/api/auth/": {
+      "url": "https://docs.sentry.io/api/auth/",
+      "status": 200,
+      "resolved_url": "https://docs.sentry.io/api/auth/",
+      "characters": 20497,
+      "signals": {
+        "oauth": " to your user, such as Retrieve an Organization . OAuth2 For third-party applications that need to access Sentry on behalf of ",
+        "key_or_token": " using HTTP Basic auth where the username is your api key, and the password is an empty value. As an example, to get informatio",
+        "basic": "kens wherever possible. API keys are passed using HTTP Basic auth where the username is your api key, and the password is an empty",
+        "test": "ction Notifications Teams Users Product Changelog Sandbox More Home API Reference Authentication Copy page API Authentication A",
+        "surface": "lities to obtain authorization. This is ideal for CLI tools, CI/CD pipelines, Docker containers, and other headless environ"
+      }
+    },
+    "https://mcp.sentry.dev/": {
+      "url": "https://mcp.sentry.dev/",
+      "status": 200,
+      "resolved_url": "https://mcp.sentry.dev/",
+      "characters": 2604,
+      "signals": {
+        "mcp": "Sentry MCP Sentry MCP Server Connects AI assistants to Sentry for searching errors, analyzing perf",
+        "surface": "e endpoint URL above. Local Server via the Sentry CLI Install the Sentry CLI and log in, then register sentry mcp as a stdi"
+      }
+    },
+    "https://developers.notion.com/docs/authorization": {
+      "url": "https://developers.notion.com/docs/authorization",
+      "status": 200,
+      "resolved_url": "https://developers.notion.com/guides/authorization/overview",
+      "characters": 167167,
+      "signals": {
+        "oauth": "Auth integrations and public integrations use the OAuth 2.0 protocol. Internal connection auth flow set-up To use an internal con",
+        "key_or_token": "s Making API requests with an internal connection Personal access token authentication OAuth integration auth flow set-up How to make an OAut",
+        "basic": "reating a token . The request is authorized using HTTP Basic Authentication. The credential is a colon-delimited combination of th",
+        "surface": " Authorization Authorization Guides API Reference CLI Reference Workers Admin API Changelog Examples Notion API Quickstart "
+      }
+    },
+    "https://developers.notion.com/guides/mcp/overview": {
+      "url": "https://developers.notion.com/guides/mcp/overview",
+      "status": 200,
+      "resolved_url": "https://developers.notion.com/guides/mcp/overview",
+      "characters": 59477,
+      "signals": {
+        "mcp": " such as Claude, ChatGPT, and Gemini, through the Model Context Protocol (MCP) . What you can do with Notion MCP Notion MCP lets your AI assis",
+        "surface": "vigation Notion MCP Overview Guides API Reference CLI Reference Workers Admin API Changelog Examples Notion API Quickstart "
+      }
+    },
+    "https://airtable.com/developers/web/api/introduction": {
+      "url": "https://airtable.com/developers/web/api/introduction",
+      "status": 200,
+      "resolved_url": "https://airtable.com/developers/web/api/introduction",
+      "characters": 163,
+      "signals": {}
+    },
+    "https://linear.app/developers/graphql": {
+      "url": "https://linear.app/developers/graphql",
+      "status": 200,
+      "resolved_url": "https://linear.app/developers/graphql",
+      "characters": 10965,
+      "signals": {
+        "oauth": "anaging Customers GraphQL Schema ↗ Authentication OAuth 2.0 authentication OAuth actor authorization OAuth application manifests ",
+        "key_or_token": " authenticate your requests, you need to pass the API key with header: Authorization: <API_KEY> curl \\ -X POST \\ -H \"Content-Ty",
+        "surface": "Skip to content → Developers Sign up Open app GraphQL API Getting started Pagination Filtering Rate limiting Deprecations W"
+      }
+    },
+    "https://linear.app/docs/mcp": {
+      "url": "https://linear.app/docs/mcp",
+      "status": 200,
+      "resolved_url": "https://linear.app/docs/mcp",
+      "characters": 17048,
+      "signals": {
+        "oauth": "ollowing address. The interactive setup flow uses OAuth 2.1 with dynamic client registration. You can also authenticate directl",
+        "key_or_token": "thenticate directly with a bearer token or Linear API key — see the FAQ for details. Read-write access is provided through http",
+        "gate": "near permissions. Setup requires a Claude Team or Enterprise plan and admin access in both Claude and Linear. In Claude, go to Organiza",
+        "mcp": "MCP server – Linear Docs Skip to content → Docs Sign up Open app Getting started",
+        "surface": "gement Workspaces Teams Members and roles API and Webhooks Security Billing and plans Exporting Data Importers Import Guide Docs"
+      }
+    },
+    "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/": {
+      "url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "status": 200,
+      "resolved_url": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/": {
+      "url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+      "status": 200,
+      "resolved_url": "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/",
+      "characters": 6193,
+      "signals": {
+        "oauth": "urity overview Security for Forge apps Scopes for OAuth 2.0 (3LO) and Forge apps OAuth 2.0 (3LO) apps Basic auth for REST APIs Da",
+        "key_or_token": "ation with an Atlassian account email address and API token . Authentication using passwords has been deprecated. Basic authentic",
+        "basic": "Basic auth for REST APIs Developer Documentation Resources News and Updates Get ",
+        "surface": "port Sign in Jira Cloud platform Guides Reference REST API Document Format Jira expressions Entity properties JQL search extensi"
+      }
+    },
+    "https://developer.atlassian.com/cloud/rovo-mcp/guides/getting-started/": {
+      "url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/getting-started/",
+      "status": 200,
+      "resolved_url": "https://developer.atlassian.com/cloud/rovo-mcp/guides/getting-started/",
+      "characters": 4249,
+      "signals": {
+        "oauth": "ion and authorization Supported tools Configuring OAuth 2.1 Configuring authentication via API token Last updated Sep 2, 2026 G",
+        "key_or_token": "figuring OAuth 2.1 Configuring authentication via API token Last updated Sep 2, 2026 Getting started with the Atlassian Rovo MCP ",
+        "test": "twork.allowedDomains setting. See the Claude Code sandbox settings for details. Security guidance MCP clients can perform actio",
+        "mcp": "Getting started with the Atlassian Rovo MCP Server Developer Documentation Resources News and Updates Get Support Sign i"
+      }
+    },
+    "https://developers.asana.com/docs/authentication": {
+      "url": "https://developers.asana.com/docs/authentication",
+      "status": 200,
+      "resolved_url": "https://developers.asana.com/docs/authentication",
+      "characters": 6328,
+      "signals": {
+        "oauth": " authentication protocol that works on top of the OAuth 2.0. The purpose of OIDC is for users to provide one set of credentials a",
+        "key_or_token": "ick start guide FAQ feature guides Authentication Personal access token OAuth OAuth Code Samples / Libraries OAuth scopes OpenID Connect API ",
+        "test": "mmon use cases Get started API explorer Developer sandbox Quick start guide FAQ feature guides Authentication Personal access t",
+        "mcp": "ython Migration guide: v5 Ruby Java PHP Asana CLI MCP Server Using Asana's MCP Server Using Asana's Command MCP Server Compatible ",
+        "surface": "e a Script Action script Dynamic value inputs FAQ Webhooks Tutorials Export project statuses to CSV Automate status reports with"
+      }
+    },
+    "https://developers.asana.com/docs/using-asanas-mcp-server": {
+      "url": "https://developers.asana.com/docs/using-asanas-mcp-server",
+      "status": 200,
+      "resolved_url": "https://developers.asana.com/docs/using-asanas-mcp-server",
+      "characters": 6697,
+      "signals": {
+        "key_or_token": "ick start guide FAQ feature guides Authentication Personal access token OAuth OAuth Code Samples / Libraries OAuth scopes OpenID Connect API ",
+        "test": "mmon use cases Get started API explorer Developer sandbox Quick start guide FAQ feature guides Authentication Personal access t",
+        "mcp": "Using Asana's MCP Server For AI agents: the docs index is at https://developers.asana.com/llms",
+        "surface": "e a Script Action script Dynamic value inputs FAQ Webhooks Tutorials Export project statuses to CSV Automate status reports with"
+      }
+    },
+    "https://developer.monday.com/api-reference/docs/authentication": {
+      "url": "https://developer.monday.com/api-reference/docs/authentication",
+      "status": 200,
+      "resolved_url": "https://developer.monday.com/api-reference/docs/authentication",
+      "characters": 7487,
+      "signals": {
+        "key_or_token": "e with the monday MCP server Authenticate with an API token Control MCP access with your own OAuth app Integrating monday MCP wit",
+        "test": "ct to the Platform Agent over A2A Tools Developer Sandbox Account The Developer Center API analytics dashboard API playground P",
+        "mcp": " Compatible MCP clients Integrate with the monday MCP server Authenticate with an API token Control MCP access with your own OAuth",
+        "surface": "latform MCP) Execute API Query (Platform MCP) Get GraphQL Schema (Platform MCP) Get Type Details (Platform MCP) Show Table (Pla"
+      }
+    },
+    "https://developer.clickup.com/docs/authentication": {
+      "url": "https://developer.clickup.com/docs/authentication",
+      "status": 200,
+      "resolved_url": "https://developer.clickup.com/docs/authentication",
+      "characters": 4533,
+      "signals": {
+        "oauth": "ow To allow others to use your app, implement the OAuth2 flow so each user has their own token for accessing their ClickUp res",
+        "key_or_token": "For personal use, authenticate with your personal API token . For apps or integrations that other people use, use the OAuth flow ",
+        "mcp": "te formatting OpenAPI Specification MCP ClickUp's MCP Server MCP Server Setup Instructions Supported Tools Tasks Tasks Attachments",
+        "surface": "Task comments pagination Docs Docs API limitation Webhooks Webhooks Webhook signature Webhook health status Space webhook payloa"
+      }
+    },
+    "https://coda.io/developers/apis/v1": {
+      "url": "https://coda.io/developers/apis/v1",
+      "status": 200,
+      "resolved_url": "https://docs.superhuman.com/developers/apis/v1",
+      "characters": 132194,
+      "signals": {
+        "key_or_token": "bject to the role of the user associated with the API token in the workspace applicable to each API request. What this means is: ",
+        "mcp": "y also want to consider using the Superhuman Docs MCP server . It's optimized for LLM usage patterns and often exposes more granul",
+        "surface": "PI updates doc. Using the API The Superhuman Docs REST API is designed to be straightforward to use. You can use the language an"
+      }
+    },
+    "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication": {
+      "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+      "status": 200,
+      "resolved_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+      "characters": 5198,
+      "signals": {
+        "oauth": "sheet. Note that the Smartsheet implementation of OAuth 2.0 is a 3-legged process, which requires human intervention. See OAuth W",
+        "mcp": "et insights from Claude Connect to Cursor Install MCP server on Cursor Connect to VS Code Install MCP server on VS Code The API au",
+        "surface": "nges Advanced topics Best practices Reports Users Webhooks Updating code Limitations Deprecation process Additional resources Ev"
+      }
+    },
+    "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/": {
+      "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "status": 200,
+      "resolved_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+      "characters": 9266,
+      "signals": {
+        "oauth": " playing around with the API. Implementing a full OAuth2 Authentication flow which allows other people to use your Harvest int",
+        "key_or_token": "quests. There are two options available to you: A Personal Access Token which is tied directly to you and is the quickest way to start playin",
+        "basic": "done manually. Personal Access Tokens replace the Basic Authentication method that was used in our v1 API, as this is more secure. Within th"
+      }
+    },
+    "https://docs.stripe.com/api/authentication": {
+      "url": "https://docs.stripe.com/api/authentication",
+      "status": 200,
+      "resolved_url": "https://docs.stripe.com/api/authentication",
+      "characters": 8476,
+      "signals": {
+        "key_or_token": "ndboxes. In live mode, you configure a restricted API key (starts with rk _ live _ ) with specific API permissions. Using a res",
+        "basic": "hour. The Stripe API authenticates requests using HTTP Basic Auth . Provide your API key as the basic auth username value. You don",
+        "test": "nd manage your API keys in the Stripe Dashboard . Test mode secret keys start with sk _ test _ and have unrestricted access to th",
+        "gate": "on Discord . Check out our changelog . Questions? Contact Sales . LLM? Read llms.txt . Powered by Markdoc",
+        "surface": "y Crypto Climate Tax Reporting Forwarding Privacy Webhooks Sandboxes Claimable Sandboxes v2 2026-11-18 . endive API Reference Do"
+      }
+    },
+    "https://docs.stripe.com/mcp": {
+      "url": "https://docs.stripe.com/mcp",
+      "status": 200,
+      "resolved_url": "https://docs.stripe.com/mcp",
+      "characters": 11020,
+      "signals": {
+        "key_or_token": "tripe user account. Agent API keys : Use an agent API key when an AI application needs independent, persistent access to Stripe",
+        "test": "rd. Configure access separately for live mode and sandbox environments. Manage your sessions Your authorised MCP clients appear",
+        "gate": "on Discord . Check out our changelog . Questions? Contact Sales . LLM? Read llms.txt . Powered by Markdoc On this page",
+        "mcp": "Model Context Protocol (MCP) | Stripe Documentation Skip to content Model Context Protocol C",
+        "surface": "g works Essentials SDKs API Events Testing Stripe CLI Tools Stripe Dashboard Stripe Projects Provisioning Workbench Develop"
+      }
+    },
+    "https://plaid.com/docs/api/": {
+      "url": "https://plaid.com/docs/api/",
+      "status": 200,
+      "resolved_url": "https://plaid.com/docs/api/",
+      "characters": 6299,
+      "signals": {
+        "test": "id Layer Fundamentals Items Accounts Institutions Sandbox Link Users Consent OAuth Partnerships Processor tokens Processor part",
+        "mcp": "DE's research librarian! Plug me in via the Plaid MCP Server . Note: Bill isn't perfect. He's just a robot platypus that reads our",
+        "surface": "cs Docs ALL DOCS API Overview # API endpoints and webhooks # API access # API protocols and headers # API host # API status and "
+      }
+    },
+    "https://plaid.com/docs/sandbox/": {
+      "url": "https://plaid.com/docs/sandbox/",
+      "status": 200,
+      "resolved_url": "https://plaid.com/docs/sandbox/",
+      "characters": 14259,
+      "signals": {
+        "test": "Sandbox - Overview | Plaid Docs Docs ALL DOCS Sandbox Overview # Sandbox over",
+        "gate": "Link section of the Dashboard. Prior to obtaining Production access, you can make free API calls using live data in Limited Production. Y",
+        "mcp": "ssing Link # Simulating data and events # Sandbox MCP server # Testing with live data using a Trial plan # Differences between San",
+        "surface": "ns, see Testing pending and posted transactions . Webhooks Plaid provides a special Sandbox-only endpoint, /sandbox/item/fire_we"
+      }
+    },
+    "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/request-security": {
+      "url": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/request-security",
+      "status": 202,
+      "resolved_url": "https://developers.binance.com/en/docs/products/spot/rest-api#request-security",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://docs.nmi.com/": {
+      "url": "https://docs.nmi.com/",
+      "status": 200,
+      "resolved_url": "https://docs.nmi.com/",
+      "characters": 1003,
+      "signals": {
+        "test": "Content Home Guides Recipes API Reference Explore Sandbox Partner Portal Merchant Portal Home Explore Sandbox Partner Portal Me"
+      }
+    },
+    "https://ipayx.ai/docs": {
+      "url": "https://ipayx.ai/docs",
+      "status": 200,
+      "resolved_url": "https://www.ipayx.ai/docs",
+      "characters": 59,
+      "signals": {}
+    },
+    "https://developer.intuit.com/app/developer/qbo/docs/get-started": {
+      "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+      "status": 200,
+      "resolved_url": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+      "characters": 62,
+      "signals": {}
+    },
+    "https://developer.xero.com/documentation/guides/oauth2/overview/": {
+      "url": "https://developer.xero.com/documentation/guides/oauth2/overview/",
+      "status": 200,
+      "resolved_url": "https://developer.xero.com/documentation/guides/oauth2/overview/",
+      "characters": 26,
+      "signals": {
+        "oauth": "OAuth 2.0 — Xero Developer"
+      }
+    },
+    "https://developer.brex.com/docs/authentication/": {
+      "url": "https://developer.brex.com/docs/authentication/",
+      "status": 200,
+      "resolved_url": "https://developer.brex.com/guides/authentication",
+      "characters": 2889,
+      "signals": {
+        "surface": "mpotency Error codes Versioning API Launch Stages Webhooks Onboarding Launch Checklist Authentication Developer authentication P"
+      }
+    },
+    "https://docs.ramp.com/developer-api/v1/overview": {
+      "url": "https://docs.ramp.com/developer-api/v1/overview",
+      "status": 200,
+      "resolved_url": "https://docs.ramp.com/developer-api/v1/overview",
+      "characters": 865,
+      "signals": {}
+    },
+    "https://pitchbook.com/products/direct-data": {
+      "url": "https://pitchbook.com/products/direct-data",
+      "status": 403,
+      "resolved_url": "https://pitchbook.com/products/direct-data",
+      "characters": 0,
+      "signals": {}
+    },
+    "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks": {
+      "url": "https://cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "status": 200,
+      "resolved_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "characters": 16073,
+      "signals": {
+        "gate": "cts Google Cloud pricing Google Cloud Marketplace Contact sales Support Community forums Support Release Notes System status Resource",
+        "surface": "inal or Cloud Shell , sign in to the Google Cloud CLI with your user credentials by running the gcloud auth login command: "
+      }
+    },
+    "https://help.otter.ai/": {
+      "url": "https://help.otter.ai/",
+      "status": 200,
+      "resolved_url": "https://help.otter.ai/hc/en-us",
+      "characters": 3194,
+      "signals": {}
+    },
+    "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API": {
+      "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+      "status": 200,
+      "resolved_url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
+      "characters": 28970,
+      "signals": {
+        "key_or_token": "entication. Follow the steps below to create your API key. Go to Integrations → Developer . Click Create key. Click Copy and st",
+        "gate": "nagement Rotate API keys periodically Rate Limits Enterprise plan users are currently limited to 10 requests / second. If you exceed yo",
+        "surface": "=20 Continue paginating until has_more is false . Webhooks Webhooks are the recommended way to build export integrations with Ot"
+      }
+    },
+    "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server": {
+      "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+      "status": 200,
+      "resolved_url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+      "characters": 11693,
+      "signals": {
+        "key_or_token": "on the web version of ChatGPT . Is there a public API key for me to set up Otter MCP for my AI application? We currently do not",
+        "mcp": "Otter MCP Server – Help Center Skip to main content | Help Center Submit a request Sub",
+        "surface": "hread ; however, Gemini's command line interface (CLI) does support connecting to MCPs . Refer to Google's documentation fo"
+      }
+    },
+    "https://developers.fathom.ai/": {
+      "url": "https://developers.fathom.ai/",
+      "status": 200,
+      "resolved_url": "https://developers.fathom.ai/",
+      "characters": 21165,
+      "signals": {
+        "key_or_token": "ead. Getting Started Quickstart Guide Generate an API key and make your first call in minutes. API docs See all available endpo",
+        "surface": "Changelog Getting started Introduction Quickstart Webhooks Building with OAuth FAQ On this page Back to top Getting Started Buil"
+      }
+    },
+    "https://consensus.app/": {
+      "url": "https://consensus.app/",
+      "status": 200,
+      "resolved_url": "https://consensus.app/",
+      "characters": 74,
+      "signals": {}
+    },
+    "https://docs.reducto.ai/": {
+      "url": "https://docs.reducto.ai/",
+      "status": 200,
+      "resolved_url": "https://docs.reducto.ai/",
+      "characters": 2993,
+      "signals": {
+        "mcp": "t Agent guide Developer tools Reducto CLI Reducto MCP server Core functions Upload Overview Uploading large files Parse Overview P",
+        "surface": "io quickstart Agent guide Developer tools Reducto CLI Reducto MCP server Core functions Upload Overview Uploading large fil"
+      }
+    },
+    "https://docs.devin.ai/api-reference/overview": {
+      "url": "https://docs.devin.ai/api-reference/overview",
+      "status": 200,
+      "resolved_url": "https://docs.devin.ai/api-reference/overview",
+      "characters": 381879,
+      "signals": {
+        "key_or_token": " Endpoints Legacy API v2 v2 API Overview (Legacy) API Key Endpoints Audit Log Endpoints Consumption Endpoints Groups Endpoints ",
+        "surface": "... Navigation Getting Started API Overview Cloud CLI Desktop Enterprise Use Cases API Federal Getting Started API Overview"
+      }
+    },
+    "https://docs.devin.ai/work-with-devin/devin-mcp": {
+      "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "status": 200,
+      "resolved_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "characters": 362438,
+      "signals": {
+        "key_or_token": "red To use the Devin MCP server, you need a Devin API key: Sign up for a Devin account at Devin.ai Generate an API key from you",
+        "mcp": "e Scans Hand off to cloud Devins Local Hands MCP (Model Context Protocol) Marketplace DeepWiki MCP Devin MCP Devin CLI Advanced Capabilities D",
+        "surface": "... Navigation Working with Devin Devin MCP Cloud CLI Desktop Enterprise Use Cases API Federal Get Started Introducing Devi"
+      }
+    },
+    "https://higgsfield.ai/cli": {
+      "url": "https://higgsfield.ai/cli",
+      "status": 200,
+      "resolved_url": "https://higgsfield.ai/cli",
+      "characters": 8748,
+      "signals": {
+        "key_or_token": "ce images, or a combination of both. Do I need an API key? No. Add the Higgsfield MCP server URL in your agent's settings and a",
+        "mcp": "sfield connect to AI agents? Higgsfield uses MCP (Model Context Protocol), an open standard that gives AI agents access to external tools. Onc",
+        "surface": "Higgsfield CLI | AI Image & Video Generation for Any Agent Higgsfield Explore Image "
+      }
+    },
+    "https://github.com/mermaid-js/mermaid-cli": {
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "status": 200,
+      "resolved_url": "https://github.com/mermaid-js/mermaid-cli",
+      "characters": 9935,
+      "signals": {
+        "test": "brew. brew install mermaid-cli Known issues Linux sandbox issue Docker permission denied issue How to setup up mermaid to use a",
+        "surface": "GitHub - mermaid-js/mermaid-cli: Command line tool for the Mermaid library · GitHub Skip to content N"
+      }
+    },
+    "https://transcriptapi.com/docs": {
+      "url": "https://transcriptapi.com/docs",
+      "status": 200,
+      "resolved_url": "https://transcriptapi.com/docs/",
+      "characters": 1068,
+      "signals": {
+        "mcp": "deo transcripts with a simple API call or through Model Context Protocol Get Started View API Reference Quick Access Section titled “Quick Acc"
+      }
+    },
+    "https://developers.grain.com/": {
+      "url": "https://developers.grain.com/",
+      "status": 200,
+      "resolved_url": "https://developers.grain.com/",
+      "characters": 1490,
+      "signals": {
+        "key_or_token": "ero to your first successful request! 1. Create a Personal Access Token A Personal Access Token (PAT) authenticates requests as you, with the"
+      }
+    }
+  }
+}
